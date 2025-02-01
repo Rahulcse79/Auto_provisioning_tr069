@@ -1,0 +1,59 @@
+{
+  "name": "genieacs",
+  "version": "1.2.9+20240918074432",
+  "description": "A TR-069 Auto Configuration Server (ACS)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genieacs/genieacs.git"
+  },
+  "homepage": "https://genieacs.com",
+  "keywords": [
+    "TR-069",
+    "CWMP",
+    "ACS"
+  ],
+  "author": "Zaid Abdulla <zaid@genieacs.com>",
+  "license": "AGPL-3.0",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "@breejs/later": "^4.1.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@koa/cors": "^5.0.0",
+    "@mui/icons-material": "^5.14.6",
+    "@mui/material": "^5.14.6",
+    "espresso-iisojs": "^1.0.7",
+    "iconv-lite": "^0.6.3",
+    "ipaddr.js": "^2.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compress": "^5.1.0",
+    "koa-jwt": "^4.0.3",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "mithril-feather-icons": "^0.1.4",
+    "mongodb": "^4.16.0",
+    "parsimmon": "^1.18.1",
+    "seedrandom": "^3.0.5"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "scripts": {},
+  "bin": {
+    "genieacs-cwmp.ts": "bin/genieacs-cwmp.ts",
+    "genieacs-ext.ts": "bin/genieacs-ext.ts",
+    "genieacs-fs.ts": "bin/genieacs-fs.ts",
+    "genieacs-nbi.ts": "bin/genieacs-nbi.ts",
+    "genieacs-ui.ts": "bin/genieacs-ui.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/genieacs/genieacs/issues"
+  },
+  "main": "ava.config.js"
+}
