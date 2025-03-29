@@ -83,6 +83,7 @@
     "node": ">=12.13.0"
   },
   "scripts": {
+    "start": "./dist/bin/genieacs-ui --ui-jwt-secret secret",
     "test": "ava --verbose --color",
     "lint-eslint": "eslint --fix \"bin/*.ts\" \"lib/**/*.ts\" \"ui/**/*.ts\" \"test/**/*.ts\" \"build/**/*.ts\"",
     "lint-prettier": "prettier --prose-wrap always --write .",

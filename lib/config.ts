@@ -38,8 +38,9 @@ const options = {
   EXT_DIR: { type: "path", default: resolve(ROOT_DIR, "config/ext") },
   MONGODB_CONNECTION_URL: {
     type: "string",
-    default: "mongodb://127.0.0.1/device_manager",
+    default: "mongodb+srv://rahulsinghcse79:Rahul%40r1.14l@freemongodb.guz6ovf.mongodb.net/device_manager?retryWrites=true&w=majority&appName=FreeMongodb",
   },
+  
 
   CWMP_WORKER_PROCESSES: { type: "int", default: 0 },
   CWMP_PORT: { type: "int", default: 7547 },

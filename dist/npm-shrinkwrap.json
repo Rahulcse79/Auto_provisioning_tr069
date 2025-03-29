@@ -1,12 +1,12 @@
 {
   "name": "genieacs",
-  "version": "1.2.9+20240918074432",
+  "version": "1.2.9+20250329105352",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "genieacs",
-      "version": "1.2.9+20240918074432",
+      "version": "1.2.9",
       "license": "AGPL-3.0",
       "dependencies": {
         "@breejs/later": "^4.1.0",
@@ -3794,7 +3794,7 @@
       "version": "1.14.1",
       "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
       "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
-      "optional": true
+      "devOptional": true
     },
     "node_modules/tsscmp": {
       "version": "1.0.6",

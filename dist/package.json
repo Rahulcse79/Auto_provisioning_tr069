@@ -1,6 +1,6 @@
 {
   "name": "genieacs",
-  "version": "1.2.9+20240918074432",
+  "version": "1.2.9+20250329105352",
   "description": "A TR-069 Auto Configuration Server (ACS)",
   "repository": {
     "type": "git",
